@@ -1,0 +1,35 @@
+.bg-gray {
+    background-color: #D4D4D2;
+
+}
+
+.bg-black {
+    background-color: #1C1C1C;
+
+}
+
+.bg-gamboge {
+    background-color: #FF9500;
+
+}
+
+.bg-dark-liver {
+    background-color: #505050;
+
+}
+
+.color-white {
+    color: white;
+}
+
+.color-black {
+    color: #1C1C1C;
+}
+
+.color-gamboge {
+    color: #FF9500;
+}
+
+.color-dark-liver {
+    color: #505050;
+}

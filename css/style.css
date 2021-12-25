@@ -1,0 +1,110 @@
+@import url('colors.css');
+@import url('fonts.css');
+@import url('layout.css');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+    border-width: 0;
+    border-style: hidden;
+    border-color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+    caret-color: transparent;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container {
+    width: 450px;
+    height: 95vh;
+    background-color: #1C1C1C;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.container__display {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 30px;
+    
+}
+
+.container__display input {
+  width: 100%;
+  height: 150px;
+  color: #f7f2f2;
+  background-color: #1C1C1C;
+  font-size: 100px;
+  overflow: hidden;
+  text-align: end;
+}
+
+.container__buttons {
+    width: 100%;
+    height: 65%;
+           
+}
+
+.common-item {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: lighter;
+    border-color: none;
+    border-width: 0;
+}
+
+.container__button-zero {
+    width: 200px;
+    height: 90px;
+    border-radius: 50px 50px 50px 50px;    
+    border-color: none;
+    border-width: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.button-zero {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-color: none;
+    border-width: 0;
+}
